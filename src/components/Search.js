@@ -53,7 +53,7 @@ class Search extends Component {
                 </Form.Group>
                 <Form.Group>
                     <Button variant='custom search' type='submit'>
-                        Submit
+                        Search
                     </Button>
                 </Form.Group>
             </Form>
