@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 /**
- * Handles the search function and valiation. Also renders the search form
+ * Handles the search function and validation. Also renders the search form.
  */
 class Search extends Component {
     constructor(props) {

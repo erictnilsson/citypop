@@ -1,5 +1,5 @@
 /**
- * Fetches either the five largest cities for the queried country or a city, depending on the search type
+ * Fetches either the five largest cities for the queried country or a city, depending on the search type.
  * @param {*} query Search string
  * @param {*} searchType Type of search, only accepts 'country' or 'city
  * @param {*} parent The invoking parent component that handles the error
@@ -17,7 +17,7 @@ export const queryApi = async (query, searchType, parent) => {
 }
 
 /**
- * Fetches an ISO-3166 country code
+ * Fetches an ISO-3166 country code.
  * @param {*} query Country search string
  * @param {*} parent The invoking parent component that handles the error
  */
@@ -50,7 +50,7 @@ const fetchCities = async (countryCode, parent) => {
 }
 
 /**
- * Fetches the five largest cities of the given country using fetchCountryCode() and fetchCities()
+ * Fetches the five largest cities of the given country using fetchCountryCode() and fetchCities().
  * @param {*} query Country search string
  * @param {*} parent The invoking parent component that handles the error
  */
@@ -65,7 +65,7 @@ const fetchCitiesForCountry = async (query, parent) => {
 }
 
 /**
- * Fetches a city
+ * Fetches a city.
  * @param {*} query City search string
  * @param {*} parent The invoking parent component that handles the error
  */

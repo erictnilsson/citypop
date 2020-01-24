@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 /**
- * Renders the CityPop header
+ * Renders the CityPop header.
  */
 class Header extends Component {
     render() {

@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import ResultEntity from '../components/ResultEntity';
 
 /**
- * Container for the result-list
+ * Container for the result-list.
  */
 class ResultContainer extends Component {
     constructor(props) {

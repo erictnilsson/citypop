@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ReactLoading from "react-loading";
+import ReactLoading from 'react-loading';
 
 /**
- * HOC wrapper for handling loading animation
+ * HOC wrapper for handling loading animation.
  */ 
 function WithLoadingLifecycle(Component) {
     return ({ hasError, isLoading, isDoneLoading, ...props }) => {
@@ -16,11 +16,11 @@ function WithLoadingLifecycle(Component) {
         else
             // center the loading animation with a flexcontainer
             return (<div style={{
-                width: "100%",
-                height: "100",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
+                width: '100%',
+                height: '100',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
             }}><ReactLoading type={'bubbles'} color={'blue'} /> </div>);
     }
 }

@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
 
 /**
- * Container for the home page
+ * Container for the home page.
  */
 function HomeContainer() {
     return (
@@ -15,11 +15,11 @@ function HomeContainer() {
                     <Card.Body>
                         <Form.Group>
                             <h3>Search By:</h3>
-                            <Link to="/search/country">
-                                <Button variant="custom secondary">Country</Button>
+                            <Link to='/search/country'>
+                                <Button variant='custom secondary'>Country</Button>
                             </Link>
-                            <Link to="/search/city">
-                                <Button variant="custom secondary">City</Button>
+                            <Link to='/search/city'>
+                                <Button variant='custom secondary'>City</Button>
                             </Link>
                         </Form.Group>
                     </Card.Body>
